@@ -23,6 +23,7 @@
 Adafruit_ILI9341 tft = Adafruit_ILI9341();
 
 void setup() {
+  pinMode(2, OUTPUT); // default is INPUT
   Serial.begin(115200);
   Serial.println("ILI9341 Test!"); 
  
